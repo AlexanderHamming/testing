@@ -12,3 +12,15 @@ E2E-testing med Cypress.
 5. Skapa tester enligt kravspecifikationen
 6. Kör testerna och verifiera att de fungerar
 7. Skicka in länk till GitHub-repot
+
+För Godkänt ska ni testa “happy path”:
+
+Kan inte söka utan att skriva in en titel
+
+Kan inte söka utan att skriva in minst 3 tecken
+
+Kan söka efter “The Matrix” och få minst X antal sökträffar
+
+Medan man söker ska en loading-spinner visas
+
+Kan klicka på första sökträffen (när sidan laddat klart) och sidan man hamnar på ska matcha ID på filmen (via ett data-attribut)
